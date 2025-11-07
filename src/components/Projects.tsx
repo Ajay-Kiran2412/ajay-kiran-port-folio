@@ -22,14 +22,6 @@ export const Projects = () => {
       liveLink: "#"
     },
     {
-      title: "Furniture Selling Website",
-      description: "A fully responsive e-commerce platform for furniture shopping with modern UI/UX design, product catalog, and shopping cart functionality. Built with clean code and Bootstrap framework.",
-      technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap 5", "Responsive Design"],
-      featured: true,
-      githubLink: "https://github.com/ajaykiran",
-      liveLink: "#"
-    },
-    {
       title: "My Portfolio",
       description: "A premium, modern portfolio website showcasing my skills, projects, and experience. Features smooth animations, responsive design, and a sleek dark theme with electric blue accents. Built with React and modern web technologies.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Lucide Icons"],

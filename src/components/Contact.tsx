@@ -38,7 +38,7 @@ export const Contact = () => {
     }
   ];
 
-  const languages = ["Tamil", "Telugu", "English", "Hindi (Basic)"];
+  const languages = ["Tamil", "Telugu", "English", "Hindi"];
 
   return (
     <section id="contact" className="section-padding bg-background">
