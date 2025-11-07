@@ -25,15 +25,11 @@ export const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Hi, I'm <span className="text-gradient glow-text">Ajay Kiran</span>
+            <span className="text-gradient glow-text">Ajay Kiran</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-4 max-w-3xl mx-auto">
-            Full-Stack Developer | Cybersecurity Enthusiast | AI Integration Specialist
-          </p>
-          
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Crafting innovative solutions with modern tech stacks and exploring the intersection of AI and web development
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+            Full-Stack Developer | Cybersecurity Enthusiast | Data Science Explorer
           </p>
 
           {/* CTA Buttons */}

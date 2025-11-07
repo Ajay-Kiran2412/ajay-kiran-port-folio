@@ -15,8 +15,8 @@ export const About = () => {
     },
     {
       icon: Brain,
-      title: "AI Integration",
-      description: "Implementing AI-driven solutions and recommendation systems"
+      title: "Data Science",
+      description: "Analyzing data patterns and building data-driven solutions"
     },
     {
       icon: Users,
@@ -34,10 +34,11 @@ export const About = () => {
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto mb-8" />
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Motivated Computer Science undergraduate with hands-on experience in software development, 
-            cybersecurity, and full-stack technologies. Proven problem-solving skills, a collaborative mindset, 
-            and a commitment to continuous learning. Eager to contribute to innovative tech-driven environments 
-            and real-world challenges.
+            Passionate Computer Science undergraduate with a keen interest in building innovative web applications 
+            and exploring emerging technologies. I thrive on solving complex problems and transforming ideas into 
+            elegant, functional solutions. When I'm not coding, you'll find me diving into the latest tech trends, 
+            contributing to open-source projects, or brainstorming the next big idea. I believe in writing code that 
+            not only works but also inspires.
           </p>
         </div>
 
@@ -57,25 +58,6 @@ export const About = () => {
           ))}
         </div>
 
-        {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
-          <div className="text-center p-6 bg-card/50 backdrop-blur-sm rounded-lg border border-border">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">8.0</div>
-            <div className="text-sm text-muted-foreground">CGPA</div>
-          </div>
-          <div className="text-center p-6 bg-card/50 backdrop-blur-sm rounded-lg border border-border">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">2+</div>
-            <div className="text-sm text-muted-foreground">Internships</div>
-          </div>
-          <div className="text-center p-6 bg-card/50 backdrop-blur-sm rounded-lg border border-border">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">10+</div>
-            <div className="text-sm text-muted-foreground">Certifications</div>
-          </div>
-          <div className="text-center p-6 bg-card/50 backdrop-blur-sm rounded-lg border border-border">
-            <div className="text-3xl md:text-4xl font-bold text-primary mb-2">3</div>
-            <div className="text-sm text-muted-foreground">Languages</div>
-          </div>
-        </div>
       </div>
     </section>
   );

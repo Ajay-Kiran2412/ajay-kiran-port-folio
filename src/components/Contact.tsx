@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, MapPin, Phone, Github, Linkedin, Code2, Globe } from "lucide-react";
+import { Mail, MapPin, Github, Linkedin, Code2, Globe } from "lucide-react";
 
 export const Contact = () => {
   const contactInfo = [
@@ -11,12 +11,6 @@ export const Contact = () => {
       label: "Email",
       value: "ajaykiran2412@gmail.com",
       link: "mailto:ajaykiran2412@gmail.com"
-    },
-    {
-      icon: Phone,
-      label: "Phone",
-      value: "+91 9360711920",
-      link: "tel:+919360711920"
     },
     {
       icon: MapPin,

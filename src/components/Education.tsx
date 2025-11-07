@@ -29,17 +29,11 @@ export const Education = () => {
               <div className="border-l-2 border-primary pl-4">
                 <h4 className="text-xl font-bold mb-1">B.E. Computer Science and Engineering</h4>
                 <p className="text-primary font-semibold mb-2">Easwari Engineering College, Chennai</p>
-                <p className="text-muted-foreground mb-2">Expected: April 2027</p>
+                <p className="text-muted-foreground mb-2">2023 - 2027</p>
                 <div className="flex items-center gap-2">
                   <span className="text-sm text-muted-foreground">CGPA:</span>
                   <span className="text-2xl font-bold text-primary">8.00</span>
                 </div>
-              </div>
-
-              <div className="border-l-2 border-muted pl-4">
-                <h4 className="text-lg font-bold mb-1">High School</h4>
-                <p className="text-muted-foreground mb-1">Velammal Matriculation Higher Secondary School</p>
-                <p className="text-sm text-muted-foreground">April 2023 • 74%</p>
               </div>
             </div>
           </Card>

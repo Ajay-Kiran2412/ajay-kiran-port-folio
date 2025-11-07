@@ -19,7 +19,7 @@ export const Navbar = () => {
     { label: "Skills", href: "#skills" },
     { label: "Experience", href: "#experience" },
     { label: "Education", href: "#education" },
-    { label: "Achievements", href: "#achievements" },
+    { label: "Projects", href: "#projects" },
     { label: "Contact", href: "#contact" }
   ];
 

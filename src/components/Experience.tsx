@@ -1,21 +1,19 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Briefcase, Calendar } from "lucide-react";
+import { Briefcase } from "lucide-react";
 
 export const Experience = () => {
   const experiences = [
     {
       company: "Aana Solutions",
-      role: "Full Stack Development using AI",
-      period: "May 2025 - Present",
+      role: "Full Stack Development",
       current: true,
-      description: "Developed responsive web applications using React and Node.js, integrating AI-driven recommendation systems.",
-      technologies: ["React", "Node.js", "AI/ML", "Full Stack"]
+      description: "Developed responsive web applications using React and Node.js, creating seamless user experiences with modern frameworks.",
+      technologies: ["React", "Node.js", "Full Stack"]
     },
     {
       company: "Supraja Technologies",
       role: "Cyber Security Intern",
-      period: "June 2025 - July 2025",
       current: false,
       description: "Conducted vulnerability assessments and penetration testing on internal network infrastructure.",
       technologies: ["Penetration Testing", "Network Security", "Vulnerability Assessment"]
@@ -65,11 +63,6 @@ export const Experience = () => {
                       {exp.current && (
                         <Badge className="bg-primary text-primary-foreground">Current</Badge>
                       )}
-                    </div>
-
-                    <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
-                      <Calendar className="w-4 h-4" />
-                      {exp.period}
                     </div>
 
                     <p className="text-muted-foreground mb-4">{exp.description}</p>
