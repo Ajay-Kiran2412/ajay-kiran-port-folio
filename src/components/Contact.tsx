@@ -24,7 +24,7 @@ export const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      link: "https://github.com/ajaykiran"
+      link: "https://github.com/Ajay-Kiran2412"
     },
     {
       icon: Linkedin,
