@@ -29,12 +29,12 @@ export const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      link: "https://linkedin.com/in/ajaykiran"
+      link: "https://www.linkedin.com/in/ajay-kiran-604b482a3"
     },
     {
       icon: Code2,
       label: "LeetCode",
-      link: "https://leetcode.com/ajaykiran"
+      link: "https://leetcode.com/u/Ajay_Kiran/"
     }
   ];
 
