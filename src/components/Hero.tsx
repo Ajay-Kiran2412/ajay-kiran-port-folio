@@ -55,7 +55,7 @@ export const Hero = () => {
           {/* Social Links */}
           <div className="flex gap-4 justify-center">
             <a 
-              href="https://github.com/ajaykiran" 
+              href="https://github.com/Ajay-Kiran2412" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-card hover:bg-primary/20 border border-border rounded-full transition-all hover:scale-110 hover:border-primary"
