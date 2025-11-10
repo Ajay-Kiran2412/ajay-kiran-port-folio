@@ -63,7 +63,7 @@ export const Hero = () => {
               <Github className="w-5 h-5" />
             </a>
             <a 
-              href="https://linkedin.com/in/ajaykiran" 
+              href="https://www.linkedin.com/in/ajay-kiran-604b482a3" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-card hover:bg-primary/20 border border-border rounded-full transition-all hover:scale-110 hover:border-primary"
@@ -71,7 +71,7 @@ export const Hero = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a 
-              href="https://leetcode.com/ajaykiran" 
+              href="https://leetcode.com/u/Ajay_Kiran/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-card hover:bg-primary/20 border border-border rounded-full transition-all hover:scale-110 hover:border-primary"
