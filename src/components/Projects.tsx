@@ -10,15 +10,15 @@ export const Projects = () => {
       description: "A sophisticated project management tool built with cutting-edge frontend technologies, featuring drag-and-drop functionality, responsive design, and modern UI components. This agile board enables teams to organize tasks, track progress through customizable workflows, and collaborate efficiently using visual task management.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Vite"],
       featured: true,
-      githubLink: "#",
-      liveLink: "#"
+      githubLink: "https://github.com/Ajay-Kiran2412/Scrumboard",
+      liveLink: "https://scrumboard-beta.vercel.app/"
     },
     {
       title: "Community Connect",
       description: "A modern web application designed to bridge communities through mutual aid and support. The platform enables users to post help requests for various community needs, offer assistance to those in need, coordinate blood donations and other critical resources, and connect NGOs with communities they serve.",
       technologies: ["React 18", "TypeScript", "Tailwind CSS", "shadcn/ui", "Vite", "ESLint"],
       featured: true,
-      githubLink: "#",
+      githubLink: "https://github.com/Ajay-Kiran2412/community-connect/tree/main/aid-bridge-pro",
       liveLink: "#"
     },
     {
@@ -26,8 +26,8 @@ export const Projects = () => {
       description: "A premium, modern portfolio website showcasing my skills, projects, and experience. Features smooth animations, responsive design, and a sleek dark theme with electric blue accents. Built with React and modern web technologies.",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Lucide Icons"],
       featured: true,
-      githubLink: "#",
-      liveLink: "#"
+      githubLink: "https://github.com/Ajay-Kiran2412/ajay-kiran-port-folio",
+      liveLink: "https://ajay-kiran-port-folio.vercel.app/"
     }
   ];
 
